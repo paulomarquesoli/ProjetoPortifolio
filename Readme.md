@@ -1,1 +1,1 @@
-Esse projeto foi criado como portifólio
+Esse projeto foi criado como portifólio para profissionais
