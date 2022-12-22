@@ -1,0 +1,25 @@
+.secao-menu__competencias {
+    background-color: #105555;
+    height: 60px;
+    width: 100%;
+}
+
+.secao-menu__lista-competencia {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+
+}
+
+.secao-menu__item a {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 200;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.secao-menu__item a:hover {
+    cursor: pointer;
+}

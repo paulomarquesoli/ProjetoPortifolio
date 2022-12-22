@@ -1,0 +1,28 @@
+.secao-apresentacao__jornalismo {
+    align-items: flex-end;
+    background-image: linear-gradient(to bottom, transparent 0%, #000000cb 80%), url(../../img/banner-jornal.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    height: 500px;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.secao-apresentacao__jornalismo--info {
+    margin: 0 0 100px 100px;
+}
+
+.secao-apresentacao__jornalismo--titulo {
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.secao-apresentacao__jornalismo--descricao {
+    font-family: 'Roboto Serif';
+    font-size: 40px;
+    font-weight: 100;
+    width: 500px;
+}

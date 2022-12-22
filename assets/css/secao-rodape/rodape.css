@@ -1,0 +1,14 @@
+.secao-rodape {
+    background-color: #F19245;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 48px;
+    width: 100%;
+}
+
+.secao-rodape p {
+    font-size: 12px;
+    font-weight: 300;
+    padding-right: 50px;
+}

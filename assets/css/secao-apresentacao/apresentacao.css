@@ -1,0 +1,50 @@
+.secao-apresentacao {
+    align-items: flex-end;
+    background-image: url(../../img/banner-principal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    height: 660px;
+    justify-content: center;
+    width: 100%;
+}
+
+.secao-apresentacao__info {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin-bottom: 73px;
+    justify-items: center;
+}
+
+.secao-apresentacao__titulo {
+    font-size: 85px;
+    font-weight: 900;
+    grid-column: span 2;
+    text-transform: uppercase;
+}
+
+.secao-apresentacao__descricao {
+    grid-column: span 2;
+}
+
+.botao {
+    border: none;
+    background-color: #105555E5;
+    color: #ffffff;
+    height: 43px;
+    margin-top: 15px;
+    width: 227px;
+}
+
+.botao:hover {
+    background-color: #134040bb;
+    cursor: pointer;
+}
+
+.botao a {
+    text-decoration: none;
+    color: #ffffff;
+}

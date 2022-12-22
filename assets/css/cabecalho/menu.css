@@ -1,0 +1,38 @@
+.cabecalho__titulo a {
+    color: #105555;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.menu {
+    align-items: center;
+    color: #000000;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 400;
+    justify-content: center;
+    text-transform: uppercase;
+
+}
+
+.menu__lista {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+
+.menu__lista--item a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu__lista--item a:hover {
+    border-bottom: #105555 4px solid;
+    color: #105555;
+    padding-bottom: 5px;
+    transition: 0.2s linear;
+}

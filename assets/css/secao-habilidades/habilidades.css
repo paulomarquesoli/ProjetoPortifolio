@@ -1,0 +1,46 @@
+.secao-habilidades {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+}
+
+.img-jornalismo {
+    align-items: center;
+    background-image: linear-gradient(to bottom, transparent 0%, #f19245cb 0%), url(../../img/banner-jornal.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 452px;
+    width: 100%;
+}
+
+.img-mkt {
+    align-items: center;
+    background-image: linear-gradient(to bottom, transparent 0%, #f19245cb 0%), url(../../img/banner-mkt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 452px;
+    width: 100%;
+}
+
+.secao-habilidades__container--titulo {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.secao-habilidades__container--descricao {
+    margin-top: 8px;
+}
+
+.secao-habilidades__container--descricao a {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
