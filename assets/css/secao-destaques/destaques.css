@@ -4,6 +4,14 @@
     grid-template-rows: auto;
 }
 
+@media screen and (max-width: 840px) {
+    .secao-destaques {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
 .secao-destaques__titulo {
     background-color: #105555;
     font-size: 30px;
@@ -12,6 +20,13 @@
     padding: 20px 0px 20px 100px;
     text-transform: uppercase;
     grid-column: span 2;
+}
+
+@media screen and (max-width: 840px) {
+    .secao-destaques__titulo {
+        font-size: 1.5em;
+        padding: 10px 10px;
+    }
 }
 
 .secao-destaques__titulo em {
@@ -25,7 +40,7 @@
     background-image: url(../../img/campanha-lula-2022.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: inset 0 -90px 80px -10px #000000;
+    box-shadow: inset 0 -90px 80px -10px #000000b7;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -33,6 +48,12 @@
     transition: 1s;
     width: 100%;
 
+}
+
+@media screen and (max-width: 840px) {
+    .img-campanha {
+        height: 450px;
+    }
 }
 
 .img-campanha:hover {
@@ -44,13 +65,19 @@
     background-image: url(../../img/trabalho-palestina.JPG);
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: inset 0 -90px 80px -10px #000000;
+    box-shadow: inset 0 -90px 80px -10px #000000b7;
     display: flex;
     flex-direction: column;
     height: 706px;
     justify-content: flex-end;
     transition: 1s;
     width: 100%;
+}
+
+@media screen and (max-width: 840px) {
+    .img-palestina {
+        height: 450px;
+    }
 }
 
 .img-palestina:hover {

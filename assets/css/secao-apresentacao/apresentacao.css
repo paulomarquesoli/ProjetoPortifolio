@@ -10,6 +10,12 @@
     width: 100%;
 }
 
+@media screen and (max-width: 840px) {
+    .secao-apresentacao {
+        height: 500px;
+    }
+}
+
 .secao-apresentacao__info {
     align-items: center;
     display: grid;
@@ -26,6 +32,12 @@
     text-transform: uppercase;
 }
 
+@media screen and (max-width: 840px) {
+    .secao-apresentacao__titulo {
+        font-size: 3em;
+    }
+}
+
 .secao-apresentacao__descricao {
     grid-column: span 2;
 }
@@ -37,6 +49,12 @@
     height: 43px;
     margin-top: 15px;
     width: 227px;
+}
+
+@media screen and (max-width: 840px) {
+    .botao {
+        width: 120px;
+    }
 }
 
 .botao:hover {

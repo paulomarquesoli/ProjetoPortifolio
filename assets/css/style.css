@@ -37,3 +37,14 @@ body {
     box-shadow: 0px 0px 2px 0px #0000006f;
 
 }
+
+@media screen and (max-width: 840px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: 2em;
+    }
+}

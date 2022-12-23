@@ -13,6 +13,12 @@
     width: 100%;
 }
 
+@media screen and (max-width: 840px) {
+    .secao-sobre {
+        padding: 3em 2em;
+    }
+}
+
 .titulo-secao {
     font-size: 30px;
     font-weight: 700;

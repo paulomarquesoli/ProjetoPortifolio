@@ -16,6 +16,12 @@
     width: 100%;
 }
 
+@media screen and (max-width: 840px) {
+    .img-jornalismo {
+        height: 250px;
+    }
+}
+
 .img-mkt {
     align-items: center;
     background-image: linear-gradient(to bottom, transparent 0%, #f19245cb 0%), url(../../img/banner-mkt.jpg);
@@ -26,6 +32,12 @@
     justify-content: center;
     height: 452px;
     width: 100%;
+}
+
+@media screen and (max-width: 840px) {
+    .img-mkt {
+        height: 250px;
+    }
 }
 
 .secao-habilidades__container--titulo {
