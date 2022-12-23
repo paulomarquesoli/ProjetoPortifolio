@@ -22,3 +22,38 @@
     padding: 0px 50px 10px 150px;
     text-align: right;
 }
+
+.secao-radio__conteudos {
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.secao-radio__conteudos-item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 15px;
+    width: 200px;
+}
+
+.secao-radio__conteudos-item audio {
+    height: 100px;
+    width: 200px;
+
+}
+
+.secao-radio__conteudos-item h3 {
+    color: #105555;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
