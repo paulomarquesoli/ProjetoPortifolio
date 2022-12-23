@@ -1,0 +1,81 @@
+.secao-textos {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+
+.secao-textos__titulo {
+    align-self: center;
+    color: #105555;
+    font-size: 90px;
+    font-weight: 900;
+    padding: 50px 50px 10px 100px;
+    text-transform: uppercase;
+}
+
+.secao-textos__descricao {
+    color: #105555;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 52px;
+    text-align: center;
+    margin-bottom: 50px;
+    width: 1000px;
+}
+
+.secao-textos__conteudos img {
+    height: 500px;
+    width: 800px;
+}
+
+.secao-textos__conteudos div {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 800px;
+}
+
+.secao-textos__conteudos div h4 {
+    color: #105555;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    grid-column: span 2;
+}
+
+.secao-textos__conteudos div p {
+    color: #105555;
+    font-family: 'Roboto Serif';
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 40px;
+    padding: 10px 50px 0 0;
+    text-transform: lowercase;
+}
+
+.secao-textos__conteudos div button {
+    align-self: flex-end;
+    background-color: #105555;
+    border: none;
+    color: #ffffff;
+    height: 50px;
+    width: 150px;
+}
+
+.secao-textos__conteudos div button:hover {
+    background-color: #134040bb;
+    cursor: pointer;
+}
+
+.secao-textos__conteudos div button a {
+    text-decoration: none;
+    color: #ffffff;
+    height: 50px;
+    text-transform: uppercase;
+    width: 150px;
+}
