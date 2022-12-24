@@ -42,5 +42,8 @@
 
 .secao-fotografia__conteudos img {
     width: 50%;
-    overflow: hidden;
+}
+
+.secao-fotografia__conteudos img:active {
+    width: 100%;
 }

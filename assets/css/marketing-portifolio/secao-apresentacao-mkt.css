@@ -1,0 +1,50 @@
+.secao-apresentacao__mkt {
+    align-items: flex-end;
+    background-image: linear-gradient(to bottom, transparent 0%, #000000cb 80%), url(../../img/banner-mkt.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    height: 500px;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.secao-apresentacao__mkt--info {
+    margin: 0 0 100px 100px;
+}
+
+.secao-apresentacao__mkt--titulo {
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.secao-apresentacao__mkt--descricao {
+    font-family: 'Roboto Serif';
+    font-size: 40px;
+    font-weight: 100;
+    width: 500px;
+}
+
+.secao-descricao-mkt {
+    align-items: center;
+    display: flex;
+    height: 300px;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.secao-descricao-mkt__texto {
+    color: #F19245;
+    font-family: 'Roboto Serif';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+    margin-left: 100px;
+    width: 60%;
+}
+
+.secao-descricao-mkt__texto em {
+    font-weight: 700;
+}

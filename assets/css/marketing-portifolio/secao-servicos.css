@@ -1,0 +1,30 @@
+.secao-servicos {
+    width: 100%;
+}
+
+.secao-servicos h3 {
+    color: #F19245;
+    font-size: 70px;
+    font-weight: bold;
+    margin: 50px 0 50px 100px;
+    width: 60%;
+}
+
+.servicos-lula {
+    width: 100%;
+}
+
+.servicos-lula h4 {
+    color: #A04800;
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.servicos-lula p {
+    color: #A04800;
+    font-size: 36px;
+    font-weight: 200;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}

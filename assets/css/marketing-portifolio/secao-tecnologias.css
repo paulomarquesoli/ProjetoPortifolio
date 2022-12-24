@@ -1,0 +1,68 @@
+.secao-tecnologias {
+    align-items: center;
+    background-image: url(../../img/banner-tecnologias.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    filter: grayscale(1);
+    height: 760px;
+    width: 100%;
+}
+
+.tecnologias-container-int {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.tecnologias-container-int h4 {
+    font-family: 'Roboto Serif';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tecnologias-container-nivel {
+    background-color: #7c7c7c75;
+    height: 30px;
+    width: 250px;
+}
+
+.tecnologias-container-int .tecnologias-nivel-capcut {
+    background-color: #ffffff;
+    height: 30px;
+    width: 100%;
+}
+
+.tecnologias-container-int .tecnologias-nivel-inshot {
+    background-color: #ffffff;
+    height: 30px;
+    width: 100%;
+}
+
+.tecnologias-container-int .tecnologias-nivel-ligthroom {
+    background-color: #ffffff;
+    height: 30px;
+    width: 80%;
+}
+
+.tecnologias-container-int .tecnologias-nivel-canva {
+    background-color: #ffffff;
+    height: 30px;
+    width: 100%;
+}
+
+.tecnologias-container-int .tecnologias-nivel-oficce {
+    background-color: #ffffff;
+    height: 30px;
+    width: 100%;
+}
+
+.tecnologias-container-int .tecnologias-nivel-google {
+    background-color: #ffffff;
+    height: 30px;
+    width: 100%;
+}
