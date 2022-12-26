@@ -1,0 +1,63 @@
+.secao-andamento {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.secao-andamento__titulo-principal {
+    color: #353535;
+    font-size: 70px;
+    font-weight: 900;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+.secao-andamento__descricao {
+    color: #353535;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 32px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.secao-andamento__banner {
+    background-image: url(../../img/banner-andamento.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.secao-andamento__palavras {
+    align-items: center;
+    background-color: #353535;
+    display: flex;
+    height: 80px;
+    text-align: center;
+    width: 100%;
+}
+
+.secao-andamento__palavras p {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 900;
+    width: calc(100%/3);
+}
+
+.secao-andamento__conteudos {
+    align-items: center;
+    background-color: #353535;
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    width: 100%;
+}
+
+.secao-andamento__conteudos p {
+    line-height: 52px;
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: 100px;
+    width: 500px;
+}
