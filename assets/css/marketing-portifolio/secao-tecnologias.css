@@ -19,49 +19,58 @@
 }
 
 .tecnologias-container-int h4 {
+    background-color: #F19245;
     font-family: 'Roboto Serif';
     font-size: 30px;
     font-weight: bold;
+
 }
 
 .tecnologias-container-nivel {
     background-color: #7c7c7c75;
     height: 30px;
     width: 250px;
+    border-radius: 30px;
 }
 
 .tecnologias-container-int .tecnologias-nivel-capcut {
-    background-color: #ffffff;
+    background-color: #F19245;
     height: 30px;
     width: 100%;
+    border-radius: 30px;
 }
 
 .tecnologias-container-int .tecnologias-nivel-inshot {
-    background-color: #ffffff;
+    background-color: #F19245;
     height: 30px;
-    width: 100%;
+    width: 85%;
+    border-radius: 30px;
 }
 
 .tecnologias-container-int .tecnologias-nivel-ligthroom {
-    background-color: #ffffff;
+    background-color: #F19245;
     height: 30px;
-    width: 80%;
+    width: 75%;
+    border-radius: 30px;
 }
 
 .tecnologias-container-int .tecnologias-nivel-canva {
-    background-color: #ffffff;
+    background-color: #F19245;
     height: 30px;
-    width: 100%;
+    width: 95%;
+    border-radius: 30px;
 }
 
 .tecnologias-container-int .tecnologias-nivel-oficce {
-    background-color: #ffffff;
+    background-color: #F19245;
     height: 30px;
-    width: 100%;
+    width: 69%;
+    border-radius: 30px;
 }
 
 .tecnologias-container-int .tecnologias-nivel-google {
-    background-color: #ffffff;
+    background-color: #F19245;
     height: 30px;
-    width: 100%;
+    width: 75%;
+    border-radius: 30px;
 }
