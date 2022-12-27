@@ -10,6 +10,14 @@
     width: 60%;
 }
 
+@media screen and (max-width: 840px) {
+    .secao-servicos__titulo-principal  {
+        font-size: 2.5em;
+        margin: 25px 0 0 25px;
+    }
+}
+
+
 .servicos-lula {
     width: 100%;
 }
@@ -21,6 +29,14 @@
     margin: 50px 0 0 100px;
 }
 
+@media screen and (max-width: 840px) {
+    .servicos-titulo__item  {
+        font-size: 1.7em;
+        margin: 25px 0 0 25px;
+        width: 80%;
+    }
+}
+
 .servicos-descricao__item {
     color: #A04800;
     font-size: 36px;
@@ -29,15 +45,44 @@
     margin-bottom: 50px;
 }
 
+@media screen and (max-width: 840px) {
+    .servicos-descricao__item {
+        font-size: 1.4em;
+        margin: 5px 0 25px 25px;
+        width: 80%;
+    }
+}
+
 .servicos-casa__videos {
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 840px) {
+    .servicos-casa__videos{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .responsive-video__casa{
+        height: 500px;
+        width: 100%;
+    }
 }
 
 .servicos-matiz__conteudos {
     align-items: center;
     display: flex;
     justify-content: space-around;
+}
+
+@media screen and (max-width: 840px) {
+    .servicos-matiz__conteudos{
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 .servicos-matiz__conteudos p {
@@ -47,6 +92,14 @@
     line-height: 42px;
     margin-bottom: 25px;
     width: 300px;
+}
+
+@media screen and (max-width: 840px) {
+    .servicos-matiz__conteudos p{
+        font-size: 1.4em;
+        line-height: 30px;
+        margin: 0 0 20px 25px;
+    }
 }
 
 .servicos-matiz__conteudos em {
@@ -59,10 +112,30 @@
     width: 540px;
 }
 
+@media screen and (max-width: 840px) {
+    .servicos-matiz__conteudos img{
+        height: 960px;
+        width: 100%;
+    }
+}
+
 .servicos-genesis__conteudos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+@media screen and (max-width: 840px) {
+    .video-genesis {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .servicos-genesis__conteudos .img-genesis {
+        height: 500px;
+        width: 100%;
+    }
 }
 
 .servicos-genesis__carrossel {
@@ -72,9 +145,23 @@
 
 }
 
+@media screen and (max-width: 840px) {
+    .servicos-genesis__carrossel {
+        margin: 0;
+        flex-direction: column;
+    }
+}
+
 .servicos-genesis__carrossel img {
     height: 500px;
     width: calc(100%/3);
+}
+
+@media screen and (max-width: 840px) {
+    .servicos-genesis__carrossel img {
+        height: 450px;
+        width: 100%;
+    }
 }
 
 .servicos-dados {

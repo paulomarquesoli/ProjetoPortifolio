@@ -11,12 +11,26 @@
     width: 100%;
 }
 
+@media screen and (max-width: 840px) {
+    .secao-tecnologias  {
+        height: 450px;
+    }
+}
+
+
 .tecnologias-container-int {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
     width: 50%;
 }
+
+@media screen and (max-width: 840px) {
+    .tecnologias-container-int {
+        width: 80%;
+    }
+}
+
 
 .tecnologias-container-int h4 {
     background-color: #F19245;
@@ -26,6 +40,14 @@
 
 }
 
+@media screen and (max-width: 840px) {
+    .tecnologias-container-int h4 {
+        background: none;
+       font-size: 1.2em;
+    }
+}
+
+
 .tecnologias-container-nivel {
     background-color: #7c7c7c75;
     height: 30px;
@@ -33,11 +55,25 @@
     border-radius: 30px;
 }
 
+@media screen and (max-width: 840px) {
+    .tecnologias-container-nivel {
+        height: 15px;
+        width: 100px;
+    }
+}
+
+
 .tecnologias-container-int .tecnologias-nivel-capcut {
     background-color: #F19245;
     height: 30px;
     width: 100%;
     border-radius: 30px;
+}
+
+@media screen and (max-width: 840px) {
+    .tecnologias-container-int .tecnologias-nivel-capcut  {
+        height: 15px;
+    }
 }
 
 .tecnologias-container-int .tecnologias-nivel-inshot {
@@ -47,12 +83,26 @@
     border-radius: 30px;
 }
 
+@media screen and (max-width: 840px) {
+    .tecnologias-container-int .tecnologias-nivel-inshot  {
+        height: 15px;
+    }
+}
+
+
 .tecnologias-container-int .tecnologias-nivel-ligthroom {
     background-color: #F19245;
     height: 30px;
     width: 75%;
     border-radius: 30px;
 }
+
+@media screen and (max-width: 840px) {
+    .tecnologias-container-int .tecnologias-nivel-ligthroom  {
+        height: 15px;
+    }
+}
+
 
 .tecnologias-container-int .tecnologias-nivel-canva {
     background-color: #F19245;
@@ -61,6 +111,13 @@
     border-radius: 30px;
 }
 
+@media screen and (max-width: 840px) {
+    .tecnologias-container-int .tecnologias-nivel-canva  {
+        height: 15px;
+    }
+}
+
+
 .tecnologias-container-int .tecnologias-nivel-oficce {
     background-color: #F19245;
     height: 30px;
@@ -68,9 +125,22 @@
     border-radius: 30px;
 }
 
+@media screen and (max-width: 840px) {
+    .tecnologias-container-int .tecnologias-nivel-oficce  {
+        height: 15px;
+    }
+}
+
+
 .tecnologias-container-int .tecnologias-nivel-google {
     background-color: #F19245;
     height: 30px;
     width: 75%;
     border-radius: 30px;
+}
+
+@media screen and (max-width: 840px) {
+    .tecnologias-container-int .tecnologias-nivel-google  {
+        height: 15px;
+    }
 }

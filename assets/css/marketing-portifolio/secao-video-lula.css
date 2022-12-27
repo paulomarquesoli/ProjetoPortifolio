@@ -4,9 +4,22 @@
     background-color: brown;
 }
 
+@media screen and (max-width: 840px) {
+    .servicos-lula__videos  {
+        flex-direction: column;
+    }
+}
+
 .video-lula {
     height: calc(1920px/3);
     width: calc(100%/3);
+}
+
+@media screen and (max-width: 840px) {
+    .video-lula  {
+        height: 500px;
+        width: 100%;
+    }
 }
 
 .lula-botoes {
@@ -16,6 +29,12 @@
     justify-content: space-around;
     height: 60px;
     width: 100%;
+}
+
+@media screen and (max-width: 840px) {
+    .lula-botoes  {
+        display: none;
+    }
 }
 
 .lula-botoes p a {
@@ -31,4 +50,3 @@
     cursor: pointer;
     font-weight: 700;
 }
-
