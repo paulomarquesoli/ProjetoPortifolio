@@ -42,7 +42,7 @@
     font-size: 36px;
     font-weight: 200;
     margin-left: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 840px) {
@@ -51,6 +51,25 @@
         margin: 5px 0 25px 25px;
         width: 80%;
     }
+}
+
+.servicos-descricao__item-det {
+    color: #A04800;
+    font-size: 20px;
+    margin: 0 0 60px 100px;
+    width: 50%;
+}
+
+.servicos-campanha-fatima__conteudos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.campanha-fatima__video {
+    height: 500px;
+    margin-bottom: 50px;
+    width: 100%;
 }
 
 .servicos-casa__videos {
@@ -162,6 +181,26 @@
         height: 450px;
         width: 100%;
     }
+}
+
+.servicos-delineare {
+    background-color: #A04800;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.servicos-delineare .img-delineare__banner {
+    height: auto;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.video-delineare {
+    height: 640px;
+    width: 360px;
 }
 
 .servicos-dados {
