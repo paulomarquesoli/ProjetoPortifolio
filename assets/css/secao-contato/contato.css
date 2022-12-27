@@ -14,6 +14,11 @@
     }
 }
 
+.secao-contato__titulo {
+    text-align: center;
+    width: 100%;
+}
+
 .tabela-contato {
     margin-top: 40px;
     width: 800px;
