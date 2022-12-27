@@ -1,6 +1,6 @@
 .secao-sobre {
     align-items: center;
-    background-color: #000000;
+    background-color: #105555;
     background-size: cover;
     box-sizing: border-box;
     display: flex;
@@ -19,12 +19,13 @@
 }
 
 .video-sobre-mim {
-    height: 500px;
+    height: 380px;
     width: 50%;
 }
 
 @media screen and (max-width: 840px) {
     .video-sobre-mim {
+        height: auto;
         width: 100%;
     }
 }
