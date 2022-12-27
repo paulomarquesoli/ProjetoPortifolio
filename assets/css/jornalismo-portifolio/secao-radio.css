@@ -6,12 +6,26 @@
     width: 100%;
 }
 
+@media screen and (max-width: 840px) {
+    .secao-radio {
+        margin-top: 20px;
+    }
+}
+
 .secao-radio__titulo {
     color: #105555;
     font-size: 90px;
     font-weight: 900;
     text-align: center;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 840px) {
+    .secao-radio__titulo{
+        font-size: 2.5em;
+        padding: 20px 0 0 25px;
+        text-align: left;
+    }
 }
 
 .secao-radio__descricao {
@@ -24,6 +38,17 @@
     width: 1000px;
 }
 
+@media screen and (max-width: 840px) {
+    .secao-radio__descricao {
+        align-self: flex-start;
+        font-size: 1.6em;
+        line-height: 25px;
+        text-align: left;
+        padding: 10px 10px 25px 25px;
+        width: 80%;
+    }
+}
+
 .secao-radio__conteudos {
     align-items: center;
     background-color: #ffffff;
@@ -33,6 +58,13 @@
     margin-top: 50px;
     margin-bottom: 50px;
     width: 100%;
+}
+
+@media screen and (max-width: 840px) {
+    .secao-radio__conteudos {
+        flex-direction: column;
+        margin-top: 20px;
+    }
 }
 
 .secao-radio__conteudos-item {
