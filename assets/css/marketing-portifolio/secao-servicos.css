@@ -93,7 +93,7 @@
 .servicos-matiz__conteudos {
     align-items: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 @media screen and (max-width: 840px) {
@@ -121,19 +121,20 @@
     }
 }
 
-.servicos-matiz__conteudos em {
-    font-weight: 600;
+.video-matiz {
+    height: 640px;
+    width: 360px;
 }
 
 
 .servicos-matiz__conteudos img {
-    height: 960px;
-    width: 540px;
+    height: 640px;
+    width: 360px;
 }
 
 @media screen and (max-width: 840px) {
     .servicos-matiz__conteudos img{
-        height: 960px;
+        height: 640px;
         width: 100%;
     }
 }
