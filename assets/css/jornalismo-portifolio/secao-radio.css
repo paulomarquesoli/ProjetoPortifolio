@@ -65,8 +65,11 @@
 
 @media screen and (max-width: 840px) {
     .secao-radio__conteudos {
+        align-items: center;
         flex-direction: column;
-        margin-top: 20px;
+        flex-wrap: nowrap;
+        padding: 0;
+        margin-top: 10px;
     }
 }
 
@@ -81,10 +84,22 @@
     width: 300px;
 }
 
+@media screen and (max-width: 840px) {
+    .secao-radio__conteudos-item {
+        margin-left: 0;
+    }
+}
+
 .secao-radio__conteudos-item audio {
     height: 100px;
     width: 300px;
 
+}
+
+@media screen and (max-width: 840px) {
+    .secao-radio__conteudos-item audio {
+        width: 80%;
+    }
 }
 
 .secao-radio__conteudos-item h3 {

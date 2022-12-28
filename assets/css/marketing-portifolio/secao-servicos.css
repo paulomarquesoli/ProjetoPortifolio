@@ -60,6 +60,15 @@
     width: 50%;
 }
 
+@media screen and (max-width: 840px) {
+    .servicos-descricao__item-det{
+        font-size: 1.2em;
+        line-height: 30px;
+        margin: 5px 10px 25px 25px;
+        width: 80%;
+    }
+}
+
 .servicos-campanha-fatima__conteudos {
     display: flex;
     justify-content: space-evenly;
@@ -98,7 +107,7 @@
 
 @media screen and (max-width: 840px) {
     .servicos-matiz__conteudos{
-        align-items: flex-start;
+        align-items: center;
         flex-direction: column;
         justify-content: center;
     }
@@ -126,6 +135,12 @@
     width: 360px;
 }
 
+@media screen and (max-width: 840px) {
+    .video-matiz{
+        width: 100%;
+    }
+}
+
 
 .servicos-matiz__conteudos img {
     height: 640px;
@@ -134,7 +149,7 @@
 
 @media screen and (max-width: 840px) {
     .servicos-matiz__conteudos img{
-        height: 640px;
+        height: auto;
         width: 100%;
     }
 }
@@ -227,8 +242,21 @@
     width: 450px;
 }
 
+@media screen and (max-width: 840px) {
+    .servicos-dados .servicos-dados__titulo{
+        font-size: 2em;
+        width: 70%;
+    }
+}
+
 .servicos-dados p {
     background-color: #F19245;
     font-family: 'Robto Serif';
     font-size: 45px;
+}
+
+@media screen and (max-width: 840px) {
+    .servicos-dados p{
+        font-size: 1.6em;
+    }
 }

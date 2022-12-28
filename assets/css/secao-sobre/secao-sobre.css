@@ -15,18 +15,20 @@
     .secao-sobre {
         padding: 0;
         flex-direction: column;
+        width: 100%;
     }
 }
 
 .video-sobre-mim {
     height: 380px;
-    width: 50%;
+    width: auto;
 }
 
 @media screen and (max-width: 840px) {
     .video-sobre-mim {
         height: auto;
         width: 100%;
+        display: none;
     }
 }
 
@@ -40,8 +42,9 @@
 
 @media screen and (max-width: 840px) {
     .secao-sobre div {
-        margin: 20px 0px 20px 0;
-        width: 80%;
+        margin-top: 20px;
+        margin-right: 0;
+        width: 100%;
 
     }
 }
@@ -56,6 +59,8 @@
 
 @media screen and (max-width: 840px) {
     .titulo-secao {
+        align-self: center;
+        margin-bottom: 15px;
         width: 80%;
 
     }
@@ -71,6 +76,12 @@
     width: 100%;
 }
 
-.secao-sobre__descricao em {
-    font-weight: 700;
+@media screen and (max-width: 840px) {
+    .secao-sobre__descricao {
+        align-self: center;
+        font-size: 1.2em;
+        margin-bottom: 30px;
+        width: 80%;
+
+    }
 }
