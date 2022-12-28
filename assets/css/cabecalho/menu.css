@@ -1,3 +1,7 @@
+header {
+    z-index: 9;
+}
+
 .cabecalho__titulo a {
     color: #105555;
     font-size: 1.5rem;
