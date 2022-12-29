@@ -50,6 +50,34 @@
     }
 }
 
+.botao-fotografia {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    margin-top: 20px;
+    margin-right: 50px;
+    width: 150px;
+    transition: 0.2;
+}
+
+@media screen and (max-width: 840px) {
+    .botao-fotografia {
+        font-size: 0.8em;
+        margin-right: 20px;
+        width: 30%;
+    }
+}
+
+.botao-fotografia a {
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.botao-fotografia:hover {
+    background-color: #4190009f;
+}
 
 .secao-fotografia__conteudos {
     display: flex;

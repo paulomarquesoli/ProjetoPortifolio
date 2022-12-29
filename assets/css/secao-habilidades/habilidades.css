@@ -19,6 +19,7 @@
 @media screen and (max-width: 840px) {
     .img-jornalismo {
         height: 250px;
+        background-position: center;
     }
 }
 
@@ -37,6 +38,7 @@
 @media screen and (max-width: 840px) {
     .img-mkt {
         height: 250px;
+        background-position: center;
     }
 }
 
