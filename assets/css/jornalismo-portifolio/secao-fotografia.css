@@ -88,7 +88,3 @@
 .secao-fotografia__conteudos img {
     width: 50%;
 }
-
-.secao-fotografia__conteudos img:active {
-    width: 100%;
-}
