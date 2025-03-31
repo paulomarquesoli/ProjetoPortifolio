@@ -4,8 +4,8 @@
     background-size: cover;
     box-sizing: border-box;
     display: flex;
-    justify-content: center;
-    height: auto;
+    justify-content: space-between;
+    height: 650px;
     line-height: 32px;
     padding: 50px 100px;
     width: 100%;
@@ -19,7 +19,7 @@
     }
 }
 
-.video-sobre-mim {
+.img-sobre-mim {
     height: 380px;
     width: auto;
 }
@@ -49,11 +49,11 @@
 }
 
 .titulo-secao {
-    align-self: flex-end;
+    align-self: flex-start;
     font-size: 30px;
     font-weight: 700;
-    text-align: end;
-    width: 60%;
+    text-align: left;
+    width: 80%;
 }
 
 @media screen and (max-width: 840px) {
@@ -66,13 +66,13 @@
 }
 
 .secao-sobre__descricao {
-    align-self: flex-end;
+    align-self: flex-start;
     font-family: 'Roboto Serif';
     font-size: 20px;
     font-weight: 100;
     margin-top: 10px;
-    text-align: end;
-    width: 100%;
+    text-align: left;
+    width: 90%;
 }
 
 @media screen and (max-width: 840px) {

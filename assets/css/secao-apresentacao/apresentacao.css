@@ -1,6 +1,6 @@
 .secao-apresentacao {
     align-items: flex-end;
-    background-image: url(../../img/banner-principal.jpg);
+    background-image: url(../../img/IMG_0615.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -18,11 +18,10 @@
 
 .secao-apresentacao__info {
     align-items: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+    display: flex;
     margin-bottom: 73px;
     justify-items: center;
+    flex-direction: column;
 }
 
 .secao-apresentacao__titulo {
