@@ -194,3 +194,262 @@ body {
       border-radius: 4px 4px 0 0;
     }
   }
+
+
+
+/* Estilos exclusivos para a seção com fundo de imagem */
+.image-background-section {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Altura total da tela */
+  background-image: url('../img/IMG_1638.png'); /* Insira sua imagem aqui */
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%); /* Torna a imagem preto e branco */
+  z-index: 0;
+}
+
+/* Camada de sobreposição */
+.image-background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Escurece a imagem para melhorar a legibilidade */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+/* Conteúdo centralizado na seção */
+.image-background-content {
+  text-align: center;
+  color: white;
+  max-width: 800px;
+  padding: 20px;
+  z-index: 2;
+}
+
+.image-background-content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.image-background-content p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.image-background-content strong {
+  font-weight: 600;
+  color: #f0b400; /* Destaque para o texto importante */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .image-background-content h1 {
+    font-size: 2rem;
+  }
+
+  .image-background-content p {
+    font-size: 1rem;
+  }
+}
+
+/* Estilos Globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  color: #ffffff;
+}
+
+/* Seção de Texto e Vídeo */
+.text-video-section {
+  padding: 40px 20px;
+  background-color: #fff;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Bloco de Texto */
+.text-block {
+  flex: 1;
+  max-width: 45%;
+}
+
+.text-block h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.text-block p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.text-block strong {
+  font-weight: 600;
+  color: #105555;
+}
+
+/* Bloco de Vídeo */
+.video-block {
+  flex: 1;
+  max-width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-block iframe {
+  width: 100%;
+  height: 100%;
+  max-width: 315px;
+  max-height: 560px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-block, .video-block {
+    max-width: 100%;
+  }
+
+  .text-block h2 {
+    font-size: 1.8rem;
+  }
+
+  .text-block p {
+    font-size: 1rem;
+  }
+}
+
+
+
+/* Garantir que o CSS seja isolado */
+#unique-certificate-section {
+  padding: 40px 20px;
+  background-color: #fff;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#unique-certificate-section .certificate-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+/* Bloco de Texto */
+#unique-certificate-section .certificate-text-block {
+  flex: 1;
+  max-width: 45%;
+  text-align: left;
+}
+
+#unique-certificate-section .certificate-text-block h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#unique-certificate-section .certificate-text-block p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+#unique-certificate-section .certificate-text-block strong {
+  font-weight: 600;
+  color: #105555;
+}
+
+/* Bloco de Vídeo */
+#unique-certificate-section .certificate-video-block {
+  flex: 1;
+  max-width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#unique-certificate-section .certificate-video-block iframe {
+  width: 100%;
+  height: 100%;
+  max-width: 315px;
+  max-height: 560px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  #unique-certificate-section .certificate-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #unique-certificate-section .certificate-text-block,
+  #unique-certificate-section .certificate-video-block {
+    max-width: 100%;
+  }
+
+  #unique-certificate-section .certificate-text-block h2 {
+    font-size: 1.8rem;
+  }
+
+  #unique-certificate-section .certificate-text-block p {
+    font-size: 1rem;
+  }
+}
+
+.image-grid-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  width: 100%;
+  display: flex;
+}
+
+.image-box {
+  flex: 1;
+  height: 300px; /* Ajuste conforme necessário */
+  background-size: cover;
+  background-position: center;
+}
+
