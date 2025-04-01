@@ -14,3 +14,7 @@ for (let contador = 0; contador < galeria.length; contador++) {
     }
 }
 
+function scrollTimeline(amount) {
+    document.getElementById('timeline').scrollBy({ left: amount, behavior: 'smooth' });
+}
+

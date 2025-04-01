@@ -2,32 +2,39 @@
     align-items: center;
     background-color: #105555;
     background-size: cover;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Inclui padding no tamanho total do elemento */
     display: flex;
-    justify-content: space-between;
-    height: 650px;
+    justify-content: center;
+    height: auto;
     line-height: 32px;
-    padding: 50px 100px;
+    padding: 50px 100px; /* Margem interna */
     width: 100%;
+    overflow: hidden; /* Impede o vazamento de conteúdo */
+    flex-wrap: wrap; /* Permite que os itens se reorganizem nas telas menores */
 }
 
 @media screen and (max-width: 840px) {
     .secao-sobre {
-        padding: 0;
+        padding: 20px; /* Menos padding para telas menores */
         flex-direction: column;
+        justify-content: center;
         width: 100%;
+        overflow: hidden;
     }
 }
 
 .img-sobre-mim {
     height: 380px;
     width: auto;
+    max-width: 100%; /* Garante que a imagem não ultrapasse a tela */
+    margin-bottom: 20px; /* Margem inferior para dar espaçamento */
 }
 
 @media screen and (max-width: 840px) {
-    .video-sobre-mim {
-        height: auto;
-        width: 100%;
+    .img-sobre-mim {
+        height: auto; /* Mantém a proporção da imagem */
+        width: 100%; /* Imagem ocupa 100% da largura */
+        margin-bottom: 20px; /* Espaçamento entre a imagem e o conteúdo */
     }
 }
 
@@ -36,15 +43,14 @@
     flex-direction: column;
     justify-content: flex-end;
     width: 50%;
-    margin-right: 20px;
+    margin-right: 20px; /* Margem entre os elementos */
 }
 
 @media screen and (max-width: 840px) {
     .secao-sobre div {
         margin-top: 20px;
         margin-right: 0;
-        width: 100%;
-
+        width: 100%; /* Ocupa toda a largura em telas pequenas */
     }
 }
 
@@ -59,9 +65,9 @@
 @media screen and (max-width: 840px) {
     .titulo-secao {
         align-self: center;
+        font-size: 1.8em;
         margin-bottom: 15px;
         width: 80%;
-
     }
 }
 
@@ -81,6 +87,5 @@
         font-size: 1.2em;
         margin-bottom: 30px;
         width: 80%;
-
     }
 }
