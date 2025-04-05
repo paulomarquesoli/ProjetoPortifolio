@@ -28,6 +28,7 @@
     background-image: linear-gradient(to bottom, transparent 0%, #f19245cb 0%), url(../../img/IMG_9421.JPG);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
