@@ -1,15 +1,32 @@
 .secao-tecnologias {
-    align-items: center;
-    background-image: url(../../img/banner-tecnologias.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+
     height: 760px;
     width: 100%;
+    overflow: hidden;
 }
+
+.secao-tecnologias::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    background-image: url(../../img/IMG_0834-_1_.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    filter: grayscale(100%);
+    z-index: -1;
+}
+
 
 @media screen and (max-width: 840px) {
     .secao-tecnologias  {
@@ -34,9 +51,10 @@
 
 .tecnologias-container-int h4 {
     background-color: #F19245;
-    font-family: 'Roboto Serif';
+    font-family: 'League Spartan', sans-serif;
     font-size: 30px;
     font-weight: bold;
+    padding: 5px;
 
 }
 
@@ -79,7 +97,7 @@
 .tecnologias-container-int .tecnologias-nivel-inshot {
     background-color: #F19245;
     height: 30px;
-    width: 85%;
+    width: 95%;
     border-radius: 30px;
 }
 
@@ -93,7 +111,7 @@
 .tecnologias-container-int .tecnologias-nivel-ligthroom {
     background-color: #F19245;
     height: 30px;
-    width: 75%;
+    width: 86%;
     border-radius: 30px;
 }
 
@@ -107,7 +125,7 @@
 .tecnologias-container-int .tecnologias-nivel-canva {
     background-color: #F19245;
     height: 30px;
-    width: 95%;
+    width: 100%;
     border-radius: 30px;
 }
 
@@ -121,7 +139,7 @@
 .tecnologias-container-int .tecnologias-nivel-oficce {
     background-color: #F19245;
     height: 30px;
-    width: 69%;
+    width: 85%;
     border-radius: 30px;
 }
 
@@ -135,7 +153,7 @@
 .tecnologias-container-int .tecnologias-nivel-google {
     background-color: #F19245;
     height: 30px;
-    width: 75%;
+    width: 96%;
     border-radius: 30px;
 }
 

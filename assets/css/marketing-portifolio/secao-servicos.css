@@ -3,11 +3,12 @@
 }
 
 .secao-servicos__titulo-principal {
+    font-family: 'League Spartan', sans-serif;
     color: #F19245;
     font-size: 70px;
     font-weight: bold;
     margin: 50px 0 0 100px;
-    width: 60%;
+    width: 70%;
 }
 
 @media screen and (max-width: 840px) {
@@ -23,6 +24,7 @@
 }
 
 .servicos-titulo__item {
+    font-family: 'League Spartan', sans-serif;
     color: #A04800;
     font-size: 45px;
     font-weight: bold;
@@ -38,8 +40,9 @@
 }
 
 .servicos-descricao__item {
+    font-family: 'League Spartan', sans-serif;
     color: #A04800;
-    font-size: 36px;
+    font-size: 26px;
     font-weight: 200;
     margin-left: 100px;
     margin-bottom: 20px;
@@ -54,6 +57,7 @@
 }
 
 .servicos-descricao__item-det {
+    font-family: 'League Spartan', sans-serif;
     color: #A04800;
     font-size: 20px;
     margin: 0 0 60px 100px;
@@ -220,6 +224,7 @@
 }
 
 .servicos-dados {
+    font-family: 'League Spartan', sans-serif;
     align-items: center;
     background-image: url(../../img/banner-dados.jpg);
     background-size: cover;
@@ -233,6 +238,7 @@
 }
 
 .servicos-dados .servicos-dados__titulo {
+    font-family: 'League Spartan', sans-serif;
     color: #ffffff;
     font-size: 67px;
     font-weight: 900;
@@ -250,9 +256,10 @@
 }
 
 .servicos-dados p {
+    font-family: 'League Spartan', sans-serif;
     background-color: #F19245;
-    font-family: 'Robto Serif';
-    font-size: 45px;
+    font-size: 36px;
+    padding: 5px;
 }
 
 @media screen and (max-width: 840px) {
