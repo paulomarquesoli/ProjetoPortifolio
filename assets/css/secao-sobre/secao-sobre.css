@@ -7,13 +7,13 @@
     justify-content: center;
     height: auto;
     line-height: 32px;
-    padding: 50px 100px; /* Margem interna */
+    padding: 50px; /* Margem interna */
     width: 100%;
     overflow: hidden; /* Impede o vazamento de conteúdo */
     flex-wrap: wrap; /* Permite que os itens se reorganizem nas telas menores */
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 800px) {
     .secao-sobre {
         padding: 20px; /* Menos padding para telas menores */
         flex-direction: column;
@@ -81,7 +81,7 @@
     font-weight: 100;
     margin-top: 10px;
     text-align: left;
-    width: 90%;
+    width: 100%;
 }
 
 @media screen and (max-width: 840px) {
