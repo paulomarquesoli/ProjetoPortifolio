@@ -94,3 +94,15 @@
         width: 80%;
     }
 }
+
+.tags {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tags .info {
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 14px;
+}
