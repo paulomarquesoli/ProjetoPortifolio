@@ -24,7 +24,7 @@
 
 @media screen and (max-width: 840px) {
     .secao-destaques__titulo {
-        font-size: 1.5em;
+        font-size: 1em;
         padding: 10px 10px;
     }
 }
@@ -115,6 +115,8 @@
     width: 425px;
     text-align: center;
 }
+
+
 
 .secao-destaques__container--descricao {
     margin-bottom: 50px;

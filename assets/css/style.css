@@ -18,7 +18,7 @@ body::-webkit-scrollbar {
   }
   
 body::-webkit-scrollbar-thumb {
-    background-color: #1055558d;
+    background-color: #48623B;
 }
 
 body {
@@ -95,7 +95,7 @@ body {
   
   .timeline__event__icon {
     border-radius: 8px 0 0 8px;
-    background: #105555;
+    background: #48623B;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,8 +114,8 @@ body {
   }
   
   .timeline__event--type2 .timeline__event__icon {
-    background: #105555;
-    color: #105555;
+    background: #48623B;
+    color: #48623B;
   }
   
   .timeline__event--type3 .timeline__event__date {
@@ -123,27 +123,27 @@ body {
   }
   
   .timeline__event--type3 .timeline__event__icon {
-    background: #105555;
-    color: #105555;
+    background: #48623B;
+    color: #48623B;
   }
   
   .timeline__event--type1 .timeline__event__title {
-    color: #105555;
+    color: #48623B;
   }
   
   .timeline__event--type2 .timeline__event__title {
-    color: #105555;
+    color: #48623B;
   }
   
   .timeline__event--type3 .timeline__event__title {
-    color: #105555;
+    color: #48623B;
   }
   
   .timeline__event:after {
     content: "";
     width: 2px;
     height: 100%;
-    background: #105555;
+    background: #48623B;
     position: absolute;
     top: 52%;
     left: -3.5rem;
@@ -155,30 +155,30 @@ body {
     width: 5rem;
     height: 5rem;
     position: absolute;
-    background: #105555;
+    background: #48623B;
     border-radius: 100%;
     left: -6rem;
     top: 50%;
     transform: translateY(-50%);
-    border: 2px solid #105555;
+    border: 2px solid #48623B;
   }
   
   .timeline__event--type2:before {
-    background: #105555;
-    border-color: #105555;
+    background: #48623B;
+    border-color: #48623B;
   }
   
   .timeline__event--type2:after {
-    background: #105555;
+    background: #48623B;
   }
   
   .timeline__event--type3:before {
-    background: #105555;
-    border-color: #105555;
+    background: #48623B;
+    border-color: #48623B;
   }
   
   .timeline__event--type3:after {
-    background: #105555;
+    background: #48623B;
   }
   
   .timeline__event:last-child:after {
