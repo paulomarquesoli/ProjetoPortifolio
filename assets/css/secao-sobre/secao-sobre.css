@@ -1,6 +1,7 @@
 .secao-sobre {
     align-items: center;
-    background-color: #105555;
+    color: black;
+    background-color: #ffffff;
     background-size: cover;
     box-sizing: border-box; /* Inclui padding no tamanho total do elemento */
     display: flex;
@@ -13,7 +14,7 @@
     flex-wrap: wrap; /* Permite que os itens se reorganizem nas telas menores */
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 840px) {
     .secao-sobre {
         padding: 20px; /* Menos padding para telas menores */
         flex-direction: column;
@@ -34,7 +35,7 @@
 @media screen and (max-width: 840px) {
     .img-sobre-mim {
         height: auto; /* Mantém a proporção da imagem */
-        width: 100%; /* Imagem ocupa 100% da largura */
+        width: 80%; /* Imagem ocupa 100% da largura */
         margin-bottom: 20px; /* Espaçamento entre a imagem e o conteúdo */
     }
 }
@@ -43,7 +44,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 50%;
+    width: 40%;
     margin-right: 20px; /* Margem entre os elementos */
 }
 
@@ -58,6 +59,7 @@
 .titulo-secao {
     font-family: 'League Spartan', sans-serif;
     align-self: flex-start;
+    line-height: 1;
     font-size: 60px;
     font-weight: 700;
     text-align: left;
